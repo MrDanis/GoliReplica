@@ -1,0 +1,14 @@
+.footerEmail{
+outline-style :none;
+}
+.footerDropdown:active,.footerDropdown:focus,.customfooterDropdown:focus{
+outline:none !important;
+border:none !important;
+box-shadow: none;
+}
+.dropDownList{
+    list-style-type: none;
+}
+.customFooterBackground{
+    background-color: black;
+}
