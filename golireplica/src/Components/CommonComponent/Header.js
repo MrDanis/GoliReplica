@@ -26,17 +26,19 @@ const Header = () => {
             Products
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Apple Cider Vinegar Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Ashwagandgha Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Superfruits Beauty Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Supergreens Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Triple Action Immune Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Dreamy Sleep Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Complete Kids Multi Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Women's Complete Multi Gummies</a></li>
-            <li><a className="dropdown-item" href="#">Multi Bites</a></li>
-            <li><a className="dropdown-item" href="#">Calm Bites</a></li>
-            <li><a className="dropdown-item" href="#">Energy Bites</a></li>
+            <li>
+              <Link className="dropdown-item" to={'/product/catagory1'}>Apple Cider Vinegar Gummies</Link>
+            </li>
+            <li><Link className="dropdown-item" to={'/product/catagory2'}>Ashwagandgha Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory3'}>Superfruits Beauty Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory4'}>Supergreens Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory5'}>Triple Action Immune Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory6'}>Dreamy Sleep Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory7'}>Complete Kids Multi Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory8'}>Women's Complete Multi Gummies</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory9'}>Multi Bites</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory10'}>Calm Bites</Link></li>
+            <li><Link className="dropdown-item" to={'/product/catagory11'}>Energy Bites</Link></li>
            
           </ul>
         </li>

@@ -5,7 +5,7 @@ import BannerBackgroundImage from '../../assets/Images/BannerBacgroundColor.jpeg
 import './NavbarBrand.css'
 const NavbarBrand = () => {
   return (
-    <div  className='m-0  p-0 container-fluid border border-2 border-danger'>
+    <div  className='m-0  p-0 container-fluid border border-0 border-danger'>
         <div className='row m-0 myBan'  style={{ backgroundImage: `url(${BannerBackgroundImage})`,backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundOrigin:'content-box' }}>
             <div className='m-0 p-0 col-12 col-md-6 d-flex flex-column align-items-center justify-content-center'>
                 <div className='mt-4 d-flex flex-column flex-wrap align-items-center justify-content-center w-50 border border-0 border-success'>
