@@ -1,0 +1,19 @@
+.myBanner{
+    /* height:32rem; */
+
+    background-color:#e52b36;
+}
+.myBan{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.bannerShowNow{
+    background-color: #000;
+}
+.bannerSocialLinkList{
+    list-style-type:none ;
+}
+.socilaIcons{
+    width:2rem;
+    color:white;
+}
